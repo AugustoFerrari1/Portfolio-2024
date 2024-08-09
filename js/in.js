@@ -35,12 +35,12 @@ function direciones(element) {
     window.open(url, '_blank');
 }
 
-function toggleLanguage() {
-    const languageBtn = document.getElementById('language-btn');
-    const isEnglish = languageBtn.textContent === 'EN';
+function cambiarLenguaje() {
+    const lenguajebtn = document.getElementById('lenguajebtn');
+    const ingles = lenguajebtn.textContent === 'EN';
 
-    if (isEnglish) {
-        languageBtn.textContent = 'ES';
+    if (ingles) {
+        lenguajebtn.textContent = 'ES';
 
         document.getElementById('sobremibtn').textContent = 'ABOUT ME';
         document.getElementById('trabajosbtn').textContent = 'WORKS';
@@ -61,7 +61,7 @@ function toggleLanguage() {
         document.querySelector('.contacto p').textContent = 'CONTACT';
    
     } else {
-        languageBtn.textContent = 'EN';
+        lenguajebtn.textContent = 'EN';
 
         document.getElementById('sobremibtn').textContent = 'SOBRE MI';
         document.getElementById('trabajosbtn').textContent = 'TRABAJOS';
