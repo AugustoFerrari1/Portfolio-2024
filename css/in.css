@@ -444,7 +444,10 @@ footer p {
         margin-left: 0%;
         margin-top: 2%;
     }
-
+    
+    footer p {
+        font-size: 13px;
+    }
 
 }
 
