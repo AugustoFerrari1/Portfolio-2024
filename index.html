@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/in.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portfolio - Augusto Ferrari</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logofir.png">
+    <meta name="description" content="Portfolio de Augusto Ferrari">
+    <meta name="author" content="Augusto Ferrari">
+    <meta name="description" content="Soy Augusto Ferrari y este es mi Portfolio, ¡Si estas interesado puedes contactarme!"/>
+    <meta name="keywords" content="desarrollo web, desarrollo sistemas, portfolio, programadores"/>
+</head>
+<body>
+    <header>
+        <div class="menubar">
+            <img src="img/logofir.png" alt="">
+            <div class="redes">
+                <div class="social-media">
+                    <i onclick="direciones(this)" data-url="https://mail.google.com/mail/u/0/?fs=1&to=augustoferrari100@gmail.com&su=CONTACTO&body=Buenas,%20augusto...&bcc=augustoferrari100@gmail.com&tf=cm" class='bx bxl-google'></i>
+                    <i onclick="direciones(this)" data-url="https://api.whatsapp.com/send?phone=59892150899" class='bx bxl-whatsapp'></i>
+                    <i onclick="direciones(this)" data-url="https://www.instagram.com/aguferrari1?igsh=ZDU5aXNjZXM0azdw&utm_source=qr" class='bx bxl-instagram'></i>
+                    <i onclick="direciones(this)" data-url="https://www.linkedin.com/in/augusto-ferrari-825995321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class='bx bxl-linkedin'></i>
+                </div>
+            </div>
+            <ul class="bar">
+                <li id="sobremibtn">SOBRE MI</li>
+                <li id="trabajosbtn">TRABAJOS</li>
+                <li id="contactobtn">CONTACTO</li>
+                <li id="language-btn" onclick="toggleLanguage()">EN</li> 
+            </ul>
+        </div>
+    </header>
+    <section class="inicio">
+        <h3>AUGUSTO FERRARI</h3>
+        <h2>Eficiencia y creatividad <br> <span>en cada línea </span><br> de código</h2>
+        <!-- <h2>Innovando <br> <span> a través </span><br> del código</h2> -->
+    </section>
+    <section class="sobremi" id="sobremi">
+        <div class="contenedor">
+            <p>SOBRE MI</p>
+            <h2 class="desc">Estudiante de <span>Ingeneria en Sistema</span> de la <span>ORT</span> Uruguay (3er semestre). <br> Previamente realice un curso de <span>desarrollo web</span> y <span>Bases de datos</span><br> (PHP - MYSQL). </h2>
+            <p id="espacio">EXPERIENCIA</p>
+            <h2 id="div" class="izdadcha1"><span>✮</span>  Desarrollo <span>WEB </span></h2>
+            <h2 class="izdadcha2"><span>✮</span>  Desarrollo de <span>APLICACIONES</span></h2>
+            <h2 class="izdadcha3"><span>✮</span>  Automatizacion y logistica con <span>SISTEMAS</span> a <span>MEDIDA</span></h2>
+            <h2 class="izdadcha4"><span>✮</span>  Diseño de interfaces de <span>GESTION</span></h2>
+            <h2 class="izdadcha5"><span>✮</span>  Administracion y manejo de <span>BASE</span> de <span>DATOS</span></h2>
+        </div>
+    </section>
+    <section id="trabajos" class="trabajos">
+        <p>TRABAJOS</p>
+        <div class="container">
+            <div class="caja1" id="color">
+                <h3 class="titulo">AUTOMOTORA</h3>
+                <br>
+                <p class="desc">En este proyecto se diseño un <span>Frontend</span> para una automotora, y tambien en <span>Backend</span> para administrar <span>Empleados</span> - <span>Clientes</span> - <span>Compras</span> - <span>Reservas</span> - <span>Publicado de autos </span>(marca, color, motorizacion, año y uso)</p>
+            </div>
+            <div class="caja1" id="espacio2">
+                <h3 class="titulo">PIXELSHIFT WEB</h3>
+                <br>
+                <p id="desc2" class="desc">Es una <span>Pagina Web</span> de venta de servicios digitales, la cual incluye <span>Paginas WEB</span> - <span>Tiendas Online</span> - <span>Sistemas de gestion</span> (App u Web)</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <p>CONTACTO</p>
+        <div class="op1">
+            <h2 id="wpp"><a href="https://api.whatsapp.com/send?phone=59892150899" target="_blank">WHATSAPP</a></h2>
+            <h2 class="contbtn color"><a href="https://www.instagram.com/aguferrari1?igsh=ZDU5aXNjZXM0azdw&utm_source=qr" target="_blank">INSTAGRAM</a></h2>
+            <h2 class="contbtn"><a href="https://mail.google.com/mail/u/0/?fs=1&to=augustoferrari100@gmail.com&su=CONTACTO&body=Buenas,%20augusto...&bcc=augustoferrari100@gmail.com&tf=cm" target="_blank">GOOGLE</a></h2>
+            <h2 class="contbtn color" ><a href="https://www.linkedin.com/in/augusto-ferrari-825995321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LINKEDIN</a></h2>
+        </div>
+    </section>    
+    <footer>
+        <p>Augusto Ferrari Desing - Portfolio 2024</p>
+    </footer>
+    <script src="js/in.js"></script>    
+</body>
+</html>
