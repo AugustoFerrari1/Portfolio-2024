@@ -230,7 +230,7 @@ h2.izdadcha1:hover:after, h2.izdadcha2:hover:after, h2.izdadcha3:hover:after, h2
     min-height: 310px;
     margin-top: 5%;
     background: linear-gradient(135deg, rgba(42, 42, 42, 0.2), rgba(47, 47, 47, 0.4), rgba(48, 48, 48, 0.2));
-    width: 25%;
+    width: 35%;
     height: 35%;
     text-align: center;
     padding: 10px;
@@ -364,7 +364,7 @@ footer p {
     }
 
     .trabajos .container .caja1 p {
-        font-size: 25px;
+        font-size: 19px;
     }
 
     .trabajos .container #espacio2 {
@@ -424,7 +424,7 @@ footer p {
     }
 
     .trabajos .container .caja1 p {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .trabajos .container #espacio2 {
@@ -444,11 +444,10 @@ footer p {
         margin-left: 0%;
         margin-top: 2%;
     }
-    
+
     footer p {
         font-size: 13px;
     }
 
+
 }
-
-
